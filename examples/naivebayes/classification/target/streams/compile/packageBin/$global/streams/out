@@ -1,0 +1,15 @@
+[0m[[0minfo[0m] [0mPackaging /home/spark_MLlib/examples/naivebayes/classification/target/scala-2.11/naivebayes_2.11-1.0.jar ...[0m
+[0m[[0mdebug[0m] [0mInput file mappings:[0m
+[0m[[0mdebug[0m] [0m	NBayes$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/naivebayes/classification/target/scala-2.11/classes/NBayes$2.class[0m
+[0m[[0mdebug[0m] [0m	NBayes$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/naivebayes/classification/target/scala-2.11/classes/NBayes$1.class[0m
+[0m[[0mdebug[0m] [0m	NBayes$4.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/naivebayes/classification/target/scala-2.11/classes/NBayes$4.class[0m
+[0m[[0mdebug[0m] [0m	NBayes$5.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/naivebayes/classification/target/scala-2.11/classes/NBayes$5.class[0m
+[0m[[0mdebug[0m] [0m	NBayes.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/naivebayes/classification/target/scala-2.11/classes/NBayes.class[0m
+[0m[[0mdebug[0m] [0m	NBayes$3.class[0m
+[0m[[0mdebug[0m] [0m	  /home/spark_MLlib/examples/naivebayes/classification/target/scala-2.11/classes/NBayes$3.class[0m
+[0m[[0minfo[0m] [0mDone packaging.[0m

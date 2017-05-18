@@ -1,0 +1,36 @@
+
+
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.spark.SparkConf;
+import org.apache.spark.api.java.JavaPairRDD;
+import org.apache.spark.api.java.JavaRDD;
+import org.apache.spark.api.java.JavaSparkContext;
+import org.apache.spark.api.java.function.Function;
+import org.apache.spark.api.java.function.PairFunction;
+import org.apache.spark.mllib.classification.NaiveBayes;
+import org.apache.spark.mllib.classification.NaiveBayesModel;
+import org.apache.spark.mllib.classification.SVMModel;
+import org.apache.spark.mllib.classification.SVMWithSGD;
+import org.apache.spark.mllib.linalg.Vectors;
+import org.apache.spark.mllib.regression.LabeledPoint;
+
+import scala.Tuple2;
+
+public class NaiveBayes {
+
+
+	public  static void main(String[] args) throws Exception {
+		
+		SparkConf conf = new SparkConf().setAppName("NaiveBayes").setMaster("local");
+		JavaSparkContext sc = new JavaSparkContext(conf);
+				
+		System.out.println("args[0]= " + args[0]);
+		JavaRDD<String> csvData0  = sc.textFile(args[0],1);
+
+		System.out.println("naive bayes: ");
+	}
+	
+	
+	
+}
