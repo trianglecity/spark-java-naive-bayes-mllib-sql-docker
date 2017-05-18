@@ -4,7 +4,7 @@
 
 NOTICE 1: the sms dataset (tab separated values file) is from http://www.dt.fee.unicamp.br/~tiago/smsspamcollection/
 
-NOTICE 2: accuracy = 0.9148681055155875.
+NOTICE 2: accuracy = 0.9148681055155875 (91%)
 
 ##
 
